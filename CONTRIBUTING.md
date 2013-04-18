@@ -7,9 +7,8 @@ Looking to contribute something to rails_apps_composer? **Here's how you can hel
 
 Reporting an [issue on Github](https://github.com/RailsApps/rails_apps_composer/issues) is one of the simplest ways to contribute. Reporting issues (and patching!) helps everyone!
 
-When you generate an application, the application’s README.textile file will contain a diagnostics report. Please include the diagnostics report when you create an issue on GitHub.
+When you generate an application, the application’s README.textile file will contain a [diagnostics report](http://railsapps.github.io/tutorial-rails-apps-composer.html#Diagnostics). Please include the diagnostics report when you create an issue on GitHub.
 
-Report [Diagnostics](http://railsapps.github.io/tutorial-rails-apps-composer.html)
 
 ### Fork
 
@@ -49,7 +48,7 @@ For additional information, reference: [Hacking the Gem](http://railsapps.github
 
 ### Coding Standards
 
-Please adhere to the coding conventions used throughout a project (indentation,
+Please adhere to the coding conventions used throughout the project (indentation,
 accurate comments, etc.).
 
 Here is a great [ruby-style-guide](https://github.com/bbatsov/ruby-style-guide)
