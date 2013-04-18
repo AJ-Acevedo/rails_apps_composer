@@ -3,11 +3,13 @@
 Looking to contribute something to rails_apps_composer? **Here's how you can help.**
 
 
+### Reporting Issues
 
-## Reporting Issues
+Reporting an [issue on Github](https://github.com/RailsApps/rails_apps_composer/issues) is one of the simplest ways to contribute. Reporting issues (and patching!) helps everyone!
 
-- TODO: ...
+When you generate an application, the application’s README.textile file will contain a diagnostics report. Please include the diagnostics report when you create an issue on GitHub.
 
+Report [Diagnostics](http://railsapps.github.io/tutorial-rails-apps-composer.html)
 
 ### Fork
 
@@ -21,21 +23,33 @@ $ git remote add upstream git@github.com:RailsApps/rails_apps_composer.git
 ```
 
 
-## Pull Requests
+### Pull Requests
 
-Good pull requests - patches, improvements, new features - is a great way to
-help. They should remain focused in scope and avoid containing unrelated
-commits.
+We love to receive your pull requests. Improvements, features, [recipes](http://railsapps.github.io/tutorial-rails-apps-composer.html#Anatomy), and bug fixes are all welcome.
+You don't have to use a git branch if you're not skilled with git,
+but if you can, we prefer it. Here's how to make a branch and submit a pull request.
 
-**Please ask first** before embarking on any significant pull request (e.g.
-implementing features, refactoring code, creating recipies, otherwise you risk
-spending a lot of time working on something that the project's developer might
-not want to merge into the project.
+```
+$ git branch <name_of_new_branch>
+$ git checkout <name_of_new_branch>
+```
+
+After you make your changes and test your gem, commit the changes.
+
+```
+$ git add .
+$ git commit -m "Your commit message"
+$ git push origin <name_of_new_branch>
+```
+
+Now it's time to [initiate the Pull Request](https://help.github.com/articles/using-pull-requests#initiating-the-pull-request)
+
+For additional information, reference: [Hacking the Gem](http://railsapps.github.io/tutorial-rails-apps-composer.html#Hacking)
 
 
-## Coding Standards
+### Coding Standards
 
 Please adhere to the coding conventions used throughout a project (indentation,
 accurate comments, etc.).
 
-Here is a great reference [ruby-style-guide](https://github.com/bbatsov/ruby-style-guide)
+Here is a great [ruby-style-guide](https://github.com/bbatsov/ruby-style-guide)
